@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  font-size: 3.5rem;
+  padding: 0.5rem;
+}
+h2 {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}
+
+.container {
+  display: flex;
+  width: 35%;
+  background-color: white;
+  margin: 7rem auto;
+  border-radius: 1.5rem;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+  rgba(50, 50, 93, 0.25) 0px 20px 40px -10px,
+  rgba(0, 0, 0, 0.3) 0px 10px 40px -20px;
+}
+
+.result {
+  background-color: rgba(19, 16, 216, 0.808);
+  border-radius: 1.5rem;
+  width: 50%;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 1.8rem 3.5rem 1.8rem;
+}
+
+.result > h3 {
+  padding-top: 1rem;
+  color: gainsboro;
+}
+
+.inner-circle {
+  background-color: blue;
+  width: 60%;
+  height: 40%;
+  border-radius: 50%;
+  margin: 1rem auto;
+  padding: 1rem 0 0 0;
+}
+
+.inner-circle > span {
+  color: gainsboro;
+}
+
+.summary {
+  margin: 0.7rem 0 1rem 1rem ;
+}
+
+.summary > h3 {
+  color: rgba(8, 7, 39, 0.808);
+}
+
+.boxes {
+  width: 120%;
+  height: 13%;
+  margin: 0.4rem 1rem 0.5rem 0.3rem;
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.3rem;
+}
+
+.right {
+  text-align: right;
+  color: gray;
+}
+
+.left {
+  display: flex;
+  text-align: left;
+}
+
+.left > p {
+  margin: 0 0.3rem;
+}
+
+.reaction {
+  background-color: rgba(245, 73, 153, 0.144);
+}
+
+.reaction > .left > p {
+  color: #F55;
+}
+
+.memory {
+  background-color: rgba(241, 188, 41, 0.103);
+}
+
+.memory > .left > p {
+  color: #FFB21E;
+}
+
+.verbal {
+  background-color: rgba(69, 231, 123, 0.11);
+}
+
+.verbal > .left > p {
+  color: #00BB8F;
+}
+
+.visual {
+  background-color: rgba(47, 9, 218, 0.123);
+}
+
+.visual > .left > p {
+  color: #1125D6;
+}
+
+strong {
+  color: rgba(8, 7, 39, 0.808);
+}
+
+.button {
+  margin: 1.8rem auto;
+  width: 100%;
+}
+
+button {
+  background-color: rgba(8, 7, 39, 0.808);
+  width: 127%;
+  padding: 0.8rem;
+  font-size: medium;
+  color: white;
+  border-radius: 1.5rem;
+}
