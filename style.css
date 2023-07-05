@@ -5,25 +5,35 @@
   padding: 0;
   margin: 0;
   border: 0;
-  font-family: sans-serif;
 }
 
 body {
   background-color: white;
+  font-family: 'Hanken Grotesk', 'Times New Roman';
+  letter-spacing: -0.5px;
 }
 
 h1 {
-  font-size: 3.5rem;
-  padding: 0.5rem;
+  font-size: 3.7rem;
+  /* padding: 0.5rem; */
+  font-weight: 800;
+  margin: 0;
 }
 h2 {
   font-size: 2rem;
   padding: 0.5rem;
+  font-weight: 700;
 }
 
 h3 {
   font-size: 1.3rem;
-  padding: 0.5rem;
+  /* padding: 0.2rem; */
+  font-weight: 700;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .container {
@@ -32,60 +42,75 @@ h3 {
   background-color: white;
   margin: 7rem auto;
   border-radius: 1.5rem;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
-  rgba(50, 50, 93, 0.25) 0px 20px 40px -10px,
-  rgba(0, 0, 0, 0.3) 0px 10px 40px -20px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 1px 0px inset,
+  rgba(0, 0, 0, 0.3) 0px 20px 40px -20px;
 }
 
 .result {
-  background-color: rgba(19, 16, 216, 0.808);
+  background:linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   border-radius: 1.5rem;
   width: 50%;
-  color: white;
+  color: hsl(0, 0%, 100%);
   text-align: center;
-  padding: 0.5rem 1.8rem 3.5rem 1.8rem;
+  padding: 0.5rem 2rem 2rem 2rem;
 }
 
 .result > h3 {
   padding-top: 1rem;
-  color: gainsboro;
+  color: hsla(221, 100%, 96%, 0.6);
+}
+
+.result > p {
+  font-weight: 500;
+  font-size: small;
+  margin: 0.7rem;
 }
 
 .inner-circle {
-  background-color: blue;
-  width: 60%;
-  height: 40%;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
-  margin: 1rem auto;
-  padding: 1rem 0 0 0;
+  margin: 0.4rem auto;
+  padding: 1.5rem 0 0 0; 
 }
 
 .inner-circle > span {
-  color: gainsboro;
+  color: hsla(221, 100%, 96%, 0.6);
+  font-weight: 500;
+  /* margin: 0 0 0 0; */
 }
 
 .summary {
-  margin: 0.7rem 0 1rem 1rem ;
+  margin: 1.5rem 0 1rem 0.7rem ;
+  width: 50%;
 }
 
 .summary > h3 {
-  color: rgba(8, 7, 39, 0.808);
+  color: hsla(224, 30%, 27%, 0.9);
+  margin: 0 0 1rem 0.9rem;;
 }
 
 .boxes {
-  width: 120%;
+  width: 85%;
   height: 13%;
-  margin: 0.4rem 1rem 0.5rem 0.3rem;
+  margin: 0.5rem 0.4rem 0.2rem 0.8rem;
   border-radius: 0.4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0.3rem;
+  padding: 0 0.5rem;
+  font-weight: 700;
 }
 
 .right {
   text-align: right;
-  color: gray;
+  color: hsl(241, 100%, 89%);
+}
+
+.right > p {
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .left {
@@ -98,51 +123,92 @@ h3 {
 }
 
 .reaction {
-  background-color: rgba(245, 73, 153, 0.144);
+  background-color: hsla(0, 100%, 67%, 0.1);
 }
 
 .reaction > .left > p {
   color: #F55;
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .memory {
-  background-color: rgba(241, 188, 41, 0.103);
+  background-color: hsla(39, 100%, 56%, 0.1);
 }
 
 .memory > .left > p {
   color: #FFB21E;
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .verbal {
-  background-color: rgba(69, 231, 123, 0.11);
+  background-color: hsla(166, 100%, 37%, 0.1);
 }
 
 .verbal > .left > p {
   color: #00BB8F;
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .visual {
-  background-color: rgba(47, 9, 218, 0.123);
+  background-color: hsla(234, 85%, 45%, 0.1);
 }
 
 .visual > .left > p {
   color: #1125D6;
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 strong {
-  color: rgba(8, 7, 39, 0.808);
+  color: hsla(224, 30%, 27%, 0.8);
 }
 
 .button {
-  margin: 1.8rem auto;
   width: 100%;
 }
 
 button {
-  background-color: rgba(8, 7, 39, 0.808);
-  width: 127%;
+  background-color: hsl(224, 30%, 27%);
+  width: 93%;
   padding: 0.8rem;
   font-size: medium;
   color: white;
   border-radius: 1.5rem;
+  font-weight: 700;
+  margin: 1.2rem auto;
+}
+
+button:hover {
+  background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media only screen and (max-width: 550px) {
+  .container {
+    display: block;
+    width: 100%;
+    border-radius: 0 1.5rem;
+    margin: 0;
+  }
+
+  .result {
+    width: 100%;
+    height: 45vh;
+    border-radius: 0 0 1.5rem 1.5rem;
+    padding: 0 2rem 1rem 2rem
+  }
+
+  .inner-circle {
+    width: 150px;
+    height: 150px;
+    padding: 1.2rem auto;
+    margin: 0.5rem auto;
+  }
+
+  .summary {
+    width: 100%;
+    height: 55vh;
+  }
 }

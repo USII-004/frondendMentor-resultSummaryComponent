@@ -19,6 +19,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+Solution to design Result summary component on Frontend Mentor using only HTML and CSS 
 
 ### The challenge
 
@@ -45,6 +46,15 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+- First designed the site layout with HTML
+- Took note of font size variation, used 3 <h> element in this design
+- Each element are contained in a <div> for easy styling
+- proceed to include  css styles in the design while using random color and fonts
+- Started with card design and including box-shadow
+- Worked on the result section before moving to summary
+- worked on summary design and color while including svg and button
+- Added colors and fonts as specified in the style guide and also adding active state for button
+- include media queries to make the page mobile responsive. 
 
 ### Built with
 
