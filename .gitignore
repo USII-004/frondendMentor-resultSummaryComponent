@@ -15,8 +15,8 @@
 .DS_Store
 .prettierignore
 
-README-temp.md/
+README-temp.md
 assets/
 design/
-data.json/
-style-guide.md/
+data.json
+style-guide.md
