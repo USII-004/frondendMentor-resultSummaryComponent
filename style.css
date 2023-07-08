@@ -14,20 +14,17 @@ body {
 }
 
 h1 {
-  font-size: 3.7rem;
-  /* padding: 0.5rem; */
+  font-size: 55px;
   font-weight: 800;
   margin: 0;
 }
 h2 {
-  font-size: 2rem;
-  padding: 0.5rem;
+  font-size: 30px;
   font-weight: 700;
 }
 
 h3 {
-  font-size: 1.3rem;
-  /* padding: 0.2rem; */
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -63,7 +60,8 @@ p {
 .result > p {
   font-weight: 500;
   font-size: small;
-  margin: 0.7rem;
+  margin: 1rem 1.2rem 1.2rem 1.2rem;
+  color: hsla(221, 100%, 96%, 0.85);
 }
 
 .inner-circle {
@@ -71,30 +69,29 @@ p {
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  margin: 0.4rem auto;
+  margin: 1.5rem auto 1rem auto;
   padding: 1.5rem 0 0 0; 
 }
 
 .inner-circle > span {
   color: hsla(221, 100%, 96%, 0.6);
   font-weight: 500;
-  /* margin: 0 0 0 0; */
 }
 
 .summary {
-  margin: 1.5rem 0 1rem 0.7rem ;
+  margin: 1.5rem 0 1rem 1.6rem;
   width: 50%;
 }
 
 .summary > h3 {
   color: hsla(224, 30%, 27%, 0.9);
-  margin: 0 0 1rem 0.9rem;;
+  margin: 0 0 1rem 0.3rem;;
 }
 
 .boxes {
-  width: 85%;
-  height: 13%;
-  margin: 0.5rem 0.4rem 0.2rem 0.8rem;
+  width: 87%;
+  height: 45px;
+  margin: 0.5rem 0.4rem 0.2rem 0.1rem;
   border-radius: 0.4rem;
   display: flex;
   justify-content: space-between;
@@ -120,46 +117,40 @@ p {
 
 .left > p {
   margin: 0 0.3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .reaction {
-  background-color: hsla(0, 100%, 67%, 0.1);
+  background-color: hsla(0, 100%, 67%, 0.07);
 }
 
 .reaction > .left > p {
-  color: #F55;
-  font-size: 0.9rem;
-  font-weight: 700;
+  color: hsla(0, 100%, 67%, 0.8); 
 }
 
 .memory {
-  background-color: hsla(39, 100%, 56%, 0.1);
+  background-color: hsla(39, 100%, 56%, 0.07);
 }
 
 .memory > .left > p {
-  color: #FFB21E;
-  font-size: 0.9rem;
-  font-weight: 700;
+  color: hsla(39, 100%, 56%, 0.8);
 }
 
 .verbal {
-  background-color: hsla(166, 100%, 37%, 0.1);
+  background-color: hsla(166, 100%, 37%, 0.07);
 }
 
 .verbal > .left > p {
-  color: #00BB8F;
-  font-size: 0.9rem;
-  font-weight: 700;
+  color: hsla(166, 100%, 37%, 0.8);
 }
 
 .visual {
-  background-color: hsla(234, 85%, 45%, 0.1);
+  background-color: hsla(234, 85%, 45%, 0.07);
 }
 
 .visual > .left > p {
-  color: #1125D6;
-  font-size: 0.9rem;
-  font-weight: 700;
+  color: hsla(234, 85%, 45%, 0.8);
 }
 
 strong {
@@ -172,13 +163,13 @@ strong {
 
 button {
   background-color: hsl(224, 30%, 27%);
-  width: 93%;
+  width: 87%;
   padding: 0.8rem;
   font-size: medium;
   color: white;
   border-radius: 1.5rem;
   font-weight: 700;
-  margin: 1.2rem auto;
+  margin: 1.3rem auto;
 }
 
 button:hover {
@@ -190,25 +181,53 @@ button:hover {
     display: block;
     width: 100%;
     border-radius: 0 1.5rem;
-    margin: 0;
+    margin: 0 0 2rem 0;
+    box-shadow: none;
   }
 
   .result {
     width: 100%;
-    height: 45vh;
     border-radius: 0 0 1.5rem 1.5rem;
-    padding: 0 2rem 1rem 2rem
+    padding: 0.7rem 2rem 1rem 2rem
   }
 
   .inner-circle {
     width: 150px;
     height: 150px;
-    padding: 1.2rem auto;
-    margin: 0.5rem auto;
+    padding: 2.2rem 0 0 0;
+  }
+
+  .result > p {
+    font-size: medium;
+    margin: 1rem 1.2rem 1.2rem 1.2rem;
   }
 
   .summary {
     width: 100%;
-    height: 55vh;
+    margin: 1.5rem 1rem 0 1rem;
+  }
+
+  .boxes {
+    height: 60px;
+    margin: 1.2rem 0.4rem 0.2rem 0.4rem;
+  }
+
+  .right > p {
+    font-size: 1.2rem;
+  }
+
+  .left > p {
+    font-size: 1.2rem;
+    margin: 0 0.8rem;
+  }
+
+  button {
+    margin: 1.8rem 0.4rem 1.8rem 0.4rem;
+    padding: 1.2rem; 
+    font-size: larger;
+  }
+
+  .attribution {
+    display: none;
   }
 }
