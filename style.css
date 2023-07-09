@@ -60,7 +60,8 @@ p {
 .result > p {
   font-weight: 500;
   font-size: small;
-  margin: 1rem 1.2rem 1.2rem 1.2rem;
+  margin: 1rem auto;
+  width: 80%;
   color: hsla(221, 100%, 96%, 0.85);
 }
 
