@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://usii-fmrsc.netlify.app/)
+- Solution URL: (https://github.com/USII-004/frondendMentor-resultSummaryComponent)
 - Live Site URL: (https://usii-fmrsc.netlify.app/)
 
 ## My process
