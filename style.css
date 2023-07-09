@@ -200,7 +200,8 @@ button:hover {
 
   .result > p {
     font-size: medium;
-    margin: 1rem 1.2rem 1.2rem 1.2rem;
+    margin: 1rem auto;
+    width: 85%;
   }
 
   .summary {
